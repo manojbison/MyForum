@@ -1,0 +1,190 @@
+body {
+	font-family: fontawesome;
+  font-size: 18px;
+	background: rgba(0,0,0,0.1);
+  min-width: 840px;
+	color:#333333;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+a:hover{
+	text-decoration: none;
+	color: inherit;
+}
+.main{
+	margin:0px;
+}
+.topbar {
+	width: 100%;
+        
+}
+.topbar-wrapper {
+	width: 1060px;
+  padding-left: 0;
+  position: relative;
+	margin: auto;
+	vertical-align: middle;
+  color: white;
+	font-size: 20px;
+border-radius: 25px;
+}
+.topbar-wrapper tr td {
+	font-size: 20px;
+	color: white;
+}
+.mainBody tr td {
+	font-size: 20px;
+	margin:0px;
+}
+.center{
+	width: 100%;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.hidden{
+	display: none;
+}
+.error{
+	text-align: center;
+	width: 100%;
+	padding: 10px;
+	color: red;
+}
+.post{
+	cursor: hand;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10%;
+	padding-right: 10%;
+	box-shadow: 1px 1px 5px #aaaaaa;
+	background: #4CAF50;
+	font-family: fontawesome;
+        font-size: 20px;
+       border-radius: 25px;
+}
+.post:hover{
+	box-shadow: 1px 1px 5px #888888;
+	background: #cccccc;
+    border-radius: 25px;
+}
+.info{
+	font-size: 11px;
+	float: right;
+	text-align: right;
+}
+.grid{
+	text-align: center;
+	width: 100%;
+	overflow: auto;
+	padding: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: rgba(255,255,255,0.5);
+	display: inline-block;
+        border-radius: 25px;
+}
+.left{
+	text-align: left;
+}
+/*-------------------------dropdowns----------------*/
+.navbar ul{
+		padding: 0;
+		background: rgba(0,0,0,0.5);
+                border-radius: 10px;
+		white-space: nowrap;
+		margin: 0;
+}
+.navbar ul li{
+    display: inline-block;
+    position: relative;
+    line-height: 20px;
+    text-align: left;
+  color:#FFF;
+font-family: fontawesome;
+font-size: 20px; 
+}
+.navbar ul li a, ul li input{
+    display: block;
+    padding: 8px 25px;
+    color: #FFF;
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+  	color: #fff;
+		background: rgba(0,0,0,0.5);
+}
+.navbar ul li ul.dropdown{
+    background: rgba(0,0,0,0.5);
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+.navbar ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+		min-width: 100%;
+}
+.navbar ul li ul.dropdown li{
+    display: block;
+}
+/* -------------------- table ---------------------- */
+.left33, .left40, .left60, .left90, .left10{
+	width: 33%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: inline-block;
+}
+.left40{
+	width: 40%;
+}
+.left60{
+	width: 60%;
+}
+.left90{
+	width: 90%;
+}
+.left10{
+	width: 10%;
+}
+/********************* form & inputs **************************/
+form{
+	margin: 0 !important;
+}
+input, textarea{
+	border: 2px solid #bbb; !important
+}
+.note-editor .note-editable {
+  text-align: left
+}
+input[type='submit'], select, button, .input {
+	padding: 10px;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 1px 1px 5px #aaaaaa;
+	border: none;
+	color: #333;
+}
+input[type='submit']{
+	cursor: hand;
+	border: 1px solid #eee;
+}
+input[type='submit']:hover, select:hover, button:hover, .input:hover {
+	background: rgba(255,255,255,0.8);
+	box-shadow: 1px 1px 5px #888888;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+select{
+	padding: 12px !important;
+}
+select:focus {
+    outline:none;
+    outline:none !important;
+}
